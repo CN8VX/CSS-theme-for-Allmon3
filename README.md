@@ -81,18 +81,6 @@ Then refresh your browser with `Ctrl + F5`.
 - ✅ Colored alerts (success, danger, etc.)
 - ✅ Compatible with all Allmon3 features
 
-### 📝 Custom Allmon3 Variables
-
-The theme modifies the following Allmon3-specific variables:
-
-- `--am3-navbar-background` : Navigation bar background
-- `--am3-nodetitle-background` : Node title bar background
-- `--am3-conntable-header-bg` : Connection table header background
-- `--am3-node-tx-local-bg-color` : Local TX color
-- And many more...
-
-See the CSS file for the complete list.
-
 ### 🐛 Troubleshooting
 
 #### Theme not applying
@@ -217,18 +205,6 @@ Puis rafraîchissez votre navigateur avec `Ctrl + F5`.
 - ✅ Tooltips cohérents avec le thème
 - ✅ Alertes colorées (succès, danger, etc.)
 - ✅ Compatible avec toutes les fonctionnalités Allmon3
-
-### 📝 Variables Allmon3 personnalisées
-
-Le thème modifie les variables suivantes spécifiques à Allmon3 :
-
-- `--am3-navbar-background` : Fond de la barre de navigation
-- `--am3-nodetitle-background` : Fond de la barre de titre des nœuds
-- `--am3-conntable-header-bg` : Fond de l'en-tête des tables de connexion
-- `--am3-node-tx-local-bg-color` : Couleur TX local
-- Et bien d'autres...
-
-Voir le fichier CSS pour la liste complète.
 
 ### 🐛 Dépannage
 
