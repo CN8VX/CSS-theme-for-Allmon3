@@ -137,7 +137,7 @@ For any questions or issues:
 
 ---
 
-**73 de CN8VX** 📻
+**73 de [CN8VX](https://www.qrz.com/db/CN8VX)** 📻
 
 *If you like this theme, don't hesitate to star ⭐ the repository!*
 
@@ -274,7 +274,7 @@ Pour toute question ou problème :
 
 ---
 
-**73 de CN8VX** 📻
+**73 de [CN8VX](https://www.qrz.com/db/CN8VX)** 📻
 
 *Si vous aimez ce thème, n'hésitez pas à mettre une ⭐ sur le dépôt !*
 
