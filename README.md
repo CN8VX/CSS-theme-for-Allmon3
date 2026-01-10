@@ -8,7 +8,7 @@
 ---
 
 <a name="english"></a>
-## 🇬🇧 English Version
+## <img src="https://flagcdn.com/w20/us.png" width="30"/> English
 
 Custom CSS theme for Allmon3 with a dark blue style created by **CN8VX**.
 
@@ -145,7 +145,7 @@ For any questions or issues:
 ---
 
 <a name="français"></a>
-## 🇫🇷 Version Française
+## <img src="https://flagcdn.com/w20/fr.png" width="30"/> Français
 
 Thème CSS personnalisé pour Allmon3 avec un style bleu foncé créé par **CN8VX**.
 
