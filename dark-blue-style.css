@@ -1,0 +1,194 @@
+/**
+ **
+ ** Customizing Allmon3 colors by CN8VX
+ **
+ ** Dark Blue Style
+ ** 
+ ** https://www.dmr-maroc.com/astuces_tips_asl3.php
+ **
+ ** https://github.com/CN8VX
+ **
+ **/
+ :root{
+	/* Background of the top navbar */
+	/*--am3-navbar-background: rgba(0, 0, 0, 1);*/
+    --am3-navbar-background: rgba(3, 15, 26);
+	/* Text/Foreground color of the top navbar */
+	--am3-navbar-color: rgba(255, 255, 255, 1);
+	/* Background of the node titlebar */
+	--am3-nodetitle-background: rgba(1, 112, 135);
+	/* Text/Forground color of the node titlebar */
+	--am3-nodetitle-color: rgba(255, 255, 255, 1);
+	/* Button highlight color of buttons in the node titlebar */
+	--am3-nodetitle-button-hl: rgba(6, 29, 52);
+	/* Node connection table header text color */
+	--am3-conntable-header-text: rgba(255, 255, 255, 1);
+	/* Node connection table header background color */
+	--am3-conntable-header-bg: rgba(6, 29, 52);
+	/* Node connection table border color */
+	--am3-conntable-border-color: rgba(90, 98, 105);
+	/* Node connection table keyed color */
+	--am3-conntable-conn-keyed-color: rgba(0, 0, 0, 1);
+	--am3-conntable-conn-keyed-bg-color: rgba(209, 231, 221, 1);
+	/* Node connection table stats=Connecting colors */
+	--am3-conntable-conn-noconn-color: rgba(0,0,0,1);
+	--am3-conntable-conn-noconn-bg-color: rgba(255,255,255,1);
+    /* Node Tx Local */
+    --am3-node-tx-local-color: rgba(0, 0, 0, 1);
+    --am3-node-tx-local-bg-color: rgba(48, 228, 173, 1);
+    /* NOde Tx Network */
+    --am3-node-tx-network-color: rgba(255, 255, 255);
+    --am3-node-tx-network-bg-color: rgba(255, 0, 0);
+    /* Node Tx Telem */
+    --am3-node-tx-telemetry-color: rgba(255, 255, 255);
+    --am3-node-tx-telemetry-bg-color: rgba(255, 0, 0);
+    /* Node Tx Remote */
+    --am3-node-tx-playback-remote-color: rgba(255, 255, 255);
+    --am3-node-tx-playback-remote-bg-color: rgba(255, 0, 0);
+    /* Node No Tx */
+    --am3-node-no-tx-color: rgb(0, 0, 0);
+    --am3-node-no-tx-bg-color: rgb(195, 230, 203);
+    /* Background-color for background-color */
+    --bs-danger-bg-subtle: rgba(245, 173, 4, 0.4);
+    /* Link color */
+	--bs-link-color-rgb: 32, 201, 51;
+	--bs-link-hover-color-rgb: 186, 231, 239;
+    /* Buttons color */
+    --bs-btn-border-color: rgba(255, 255, 255);
+    --bs-btn-color: rgba(255, 255, 255);
+        
+    /* Additional custom variables */
+    --primary-dark: #0a2a4a;
+    --primary-blue: #045791;
+    --bg-medium: #0a2a4a;
+    --accent-cyan: #00d4ff;
+    --text-secondary: #0e3760;
+}
+
+.btn-outline-dark {
+    --bs-btn-border-color: rgba(255, 255, 255);
+    --bs-btn-color: rgba(255, 255, 255);
+    --bs-btn-hover-bg: rgba(10, 42, 74);
+    --bs-btn-hover-border-color: rgba(3, 15, 26);
+}
+
+body {
+	background: linear-gradient(to left, rgba(6, 29, 52), rgba(4, 87, 145));
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: rgba(255, 255, 255);
+}
+
+body p {
+    color: rgba(131, 202, 248);
+}
+
+.text-wrap span {
+    color: rgba(239, 83, 80) !important;
+}
+
+.bg-light {
+    background-color: rgba(2, 61, 104) !important;
+    color: rgba(255, 255, 255);
+}
+
+/* Custom style button */
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #061d34;
+    --bs-btn-border-color: #0a2a4a;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #045791;
+    --bs-btn-hover-border-color: #4db8ff;
+    --bs-btn-focus-shadow-rgb: 130,138,145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #061d34;
+    --bs-btn-active-border-color: #0a2a4a;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #061d34;
+    --bs-btn-disabled-border-color: #0a2a4a;
+}
+
+/* Enhanced buttons with transitions */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(4, 87, 145, 0.5);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-close {
+    background: rgba(255, 255, 255, 0.9) var(--bs-btn-close-bg) center / 1em auto no-repeat;
+}
+
+/* Modal dialogs pour les petites fenetre */
+.modal-content {
+    background: linear-gradient(135deg, var(--primary-dark), var(--bg-medium));
+    border: 2px solid var(--primary-blue);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--primary-blue);
+}
+
+.modal-footer {
+    border-top: 1px solid var(--primary-blue);
+}
+
+/* Alerts */
+.alert-success {
+    background: rgba(40, 167, 69, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.alert-danger {
+    background: var(--bs-danger-bg-subtle);
+    color: rgba(255, 255, 255, 0.9);
+	--bs-alert-border-color: rgba(241, 174, 4);
+}
+
+/*.alert-info {
+    background: rgba(231, 172, 34, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+}*/
+
+/*.alert-warning {
+    background: rgba(255, 193, 7, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+}*/
+
+/* Tooltips */
+.tooltip-inner {
+    background: var(--primary-dark);
+    border: 1px solid var(--primary-blue);
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: var(--primary-blue);
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: var(--primary-blue);
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+    background: var(--primary-dark);
+    border: 1px solid var(--primary-blue);
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown-item:hover {
+    background: var(--bg-medium);
+    color: var(--accent-cyan);
+}
