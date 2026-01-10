@@ -271,7 +271,13 @@ Toutes questions, problèmes ou suggestions sont les bienvenus ! N'hésitez pas 
 Pour toute question ou problème :
 - Consultez la [documentation Allmon3](https://github.com/AllStarLink/allmon3)
 - 📧 **Email** : [cn8vx.ma@gmail.com](mailto:cn8vx.ma@gmail.com)
+
 ---
+
+**73 de CN8VX** 📻
+
+*Si vous aimez ce thème, n'hésitez pas à mettre une ⭐ sur le dépôt !*
+
 ---
 <img width="1439" height="736" alt="dark-blue-allmon3_01" src="https://github.com/user-attachments/assets/9d0169e0-4b49-4b33-8963-fc008b055bd3" />
 <img width="1441" height="738" alt="dark-blue-allmon3_02" src="https://github.com/user-attachments/assets/eaa3162f-da5d-409f-8c24-3a864ee6806b" />
@@ -280,8 +286,4 @@ Pour toute question ou problème :
 
 
 
----
 
-**73 de CN8VX** 📻
-
-*Si vous aimez ce thème, n'hésitez pas à mettre une ⭐ sur le dépôt !*
