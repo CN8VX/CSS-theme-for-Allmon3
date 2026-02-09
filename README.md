@@ -325,5 +325,9 @@ Pour toute question ou problème:
 *Si vous aimez ces thèmes, n'hésitez pas à mettre une ⭐ sur le dépôt!*
 
 ---
+#### 1. Dark Blue Style
 <img width="1439" height="736" alt="dark-blue-allmon3_01" src="https://github.com/user-attachments/assets/9d0169e0-4b49-4b33-8963-fc008b055bd3" />
 <img width="1441" height="738" alt="dark-blue-allmon3_02" src="https://github.com/user-attachments/assets/eaa3162f-da5d-409f-8c24-3a864ee6806b" />
+
+#### 2. Black & Gray Style
+<img width="1436" height="724" alt="Black Gray Style" src="https://github.com/user-attachments/assets/0f7f02c1-082e-4239-8146-76eb57b0a051" />
