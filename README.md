@@ -41,21 +41,29 @@ A sleek, modern monochrome theme with sophisticated black and gray tones for a p
 
 #### Installation Procedure
 
-**For Dark Blue Style:**
+**Download the Styles:**
 ```bash
 cd /etc/allmon3/
 sudo wget https://raw.githubusercontent.com/CN8VX/CSS-theme-for-Allmon3/main/dark-blue-style.css
+sudo wget https://raw.githubusercontent.com/CN8VX/CSS-theme-for-Allmon3/main/black-gray-style.css
+```
+
+**Backup the original theme:**
+```bash
 sudo mv custom.css custom.css.old
-sudo mv dark-blue-style.css custom.css
+```
+
+**First-time installation for Dark Blue Style:**
+```bash
+sudo cp dark-blue-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
-**For Black & Gray Style:**
+**OR**
+
+**First-time installation for Black & Gray Style:**
 ```bash
-cd /etc/allmon3/
-sudo wget https://raw.githubusercontent.com/CN8VX/CSS-theme-for-Allmon3/main/black-gray-style.css
-sudo mv custom.css custom.css.old
-sudo mv black-gray-style.css custom.css
+sudo cp black-gray-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
@@ -69,26 +77,27 @@ sudo systemctl restart allmon3
 **To switch from Dark Blue to Black & Gray:**
 ```bash
 cd /etc/allmon3/
-sudo mv custom.css custom.css.dark-blue
-sudo mv black-gray-style.css custom.css
+sudo rm -fr custom.css
+sudo cp black-gray-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
 **To switch from Black & Gray to Dark Blue:**
 ```bash
 cd /etc/allmon3/
-sudo mv custom.css custom.css.black-gray
-sudo mv dark-blue-style.css custom.css
+sudo rm -fr custom.css
+sudo cp dark-blue-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
-### 🔄 Restore Original Theme
+### 🔄 Restore Original Theme and Remove Other Themes
 
 If you want to revert to the original theme:
 ```bash
 cd /etc/allmon3/
-sudo mv custom.css custom.css.backup
-sudo mv custom.css.old custom.css
+sudo rm -fr *.css
+sudo cp custom.css.old custom.css
+sudo rm -fr custom.css.old
 sudo systemctl restart allmon3
 ```
 
@@ -192,21 +201,29 @@ Un thème monochrome élégant et moderne avec des tons noirs et gris sophistiqu
 
 #### Procédure d'installation
 
-**Pour le style Bleu Foncé:**
+**Télécharger les Styles:**
 ```bash
 cd /etc/allmon3/
 sudo wget https://raw.githubusercontent.com/CN8VX/CSS-theme-for-Allmon3/main/dark-blue-style.css
+sudo wget https://raw.githubusercontent.com/CN8VX/CSS-theme-for-Allmon3/main/black-gray-style.css
+```
+
+**Sauvegarder le thème d'origine:**
+```bash
 sudo mv custom.css custom.css.old
-sudo mv dark-blue-style.css custom.css
+```
+
+**Installation pour la première fois le style Bleu Foncé:**
+```bash
+sudo cp dark-blue-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
-**Pour le style Noir & Gris:**
+**OU**
+
+**Installation pour la première fois le style Noir & Gris:**
 ```bash
-cd /etc/allmon3/
-sudo wget https://raw.githubusercontent.com/CN8VX/CSS-theme-for-Allmon3/main/black-gray-style.css
-sudo mv custom.css custom.css.old
-sudo mv black-gray-style.css custom.css
+sudo cp black-gray-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
@@ -220,26 +237,27 @@ sudo systemctl restart allmon3
 **Pour passer du Bleu Foncé au Noir & Gris:**
 ```bash
 cd /etc/allmon3/
-sudo mv custom.css custom.css.dark-blue
-sudo mv black-gray-style.css custom.css
+sudo rm -fr custom.css
+sudo cp black-gray-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
 **Pour passer du Noir & Gris au Bleu Foncé:**
 ```bash
 cd /etc/allmon3/
-sudo mv custom.css custom.css.black-gray
-sudo mv dark-blue-style.css custom.css
+sudo rm -fr custom.css
+sudo cp dark-blue-style.css custom.css
 sudo systemctl restart allmon3
 ```
 
-### 🔄 Restauration du thème original
+### 🔄 Restauration du thème original et supprimer les autres thèmes
 
 Si vous souhaitez revenir au thème d'origine:
 ```bash
 cd /etc/allmon3/
-sudo mv custom.css custom.css.backup
-sudo mv custom.css.old custom.css
+sudo rm -fr *.css
+sudo cp custom.css.old custom.css
+sudo rm -fr custom.css.old
 sudo systemctl restart allmon3
 ```
 
