@@ -178,6 +178,6 @@ body p {
 }
 
 .dropdown-item:hover {
-    background: var(--bg-medium);
+    /*background: var(--bg-medium);*/
     color: var(--accent-cyan);
 }
