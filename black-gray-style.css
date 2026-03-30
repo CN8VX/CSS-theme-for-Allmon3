@@ -178,6 +178,11 @@ body p {
 }
 
 .dropdown-item:hover {
-    /*background: var(--bg-medium);*/
-    color: var(--accent-cyan);
+    background: var(--bg-medium);
+    color: #fff;
 }
+
+.dropdown-item.active,.dropdown-item:active {
+    background-color: #6c757d;
+}
+
